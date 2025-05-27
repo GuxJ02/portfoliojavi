@@ -43,7 +43,7 @@ const HeroSection = () => {
           </p>  
           <div className="flex justify-center space-x-4">
             <div className="bg-white/5 p-3 rounded-lg">
-              <img src="public\Images\Capgemini.png" alt="CAPGEMINI" className="h-8 w-auto opacity-70" />
+              <img src="Images\Capgemini.png" alt="CAPGEMINI" className="h-8 w-auto opacity-70" />
             </div>
            
             <div className="bg-white/5 p-3 rounded-lg">
