@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Salidas de Vite
+dist
+dist-ssr
+
+# Config local de Vercel (no subir al repo)
+.vercel
+
+# Archivos env
+.env*
+!.env.example

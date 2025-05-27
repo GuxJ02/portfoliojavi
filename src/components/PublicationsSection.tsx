@@ -17,7 +17,7 @@ const PublicationsSection = () => {
       id: 1,
       title: 'RAG Search',
       type: 'article',
-      image: 'public/Images/portada.png',
+      image: 'Images/portada.png',
       description: 'Comprehensive study of RAG workflows, covering scalable indexing, reranking, and local-agent orchestration ',
       link: 'https://medium.com/@javier.garzon.martinez/rag-aplicado-a-la-automatizaci%C3%B3n-de-incidencias-gestionando-el-caos-de-la-bandeja-de-correo-461fd84274ec'
     },
@@ -25,7 +25,7 @@ const PublicationsSection = () => {
       id: 2,
       title: 'Cybersecurity diploma',
       type: 'certification',
-      image: 'public/Images/Ciberseguridad.png',
+      image: 'Images/Ciberseguridad.png',
       description: 'A university-specific diploma in Cybersecurity, covering ethical hacking, and risk management.',
       link: 'https://www.ufv.es/estudiar-grado-informatica-madrid/'
     },
