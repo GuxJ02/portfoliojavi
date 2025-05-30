@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="grid gap-8 md:grid-cols-3">
           <div>
             <a href="#" className="mb-4 inline-block text-xl font-bold">
-              <span className="text-orange-accent">JAVI</span>GM
+              <span className="text-orange-accent">JAV</span>GM
             </a>
             <p className="mb-4 max-w-xs text-text-secondary">
               Currently living in Madrid, Spain.

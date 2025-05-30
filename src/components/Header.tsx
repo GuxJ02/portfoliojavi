@@ -115,7 +115,7 @@ const Header = () => {
             transition-colors duration-500
           "
         >
-          JAVI<span className="text-white">GM</span>
+          JAV<span className="text-white">GM</span>
         </a>
 
         <button
