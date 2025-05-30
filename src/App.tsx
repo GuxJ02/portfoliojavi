@@ -15,11 +15,11 @@ const App = () => {
     fetch("/api/get-ip")
       .then((res) => res.json())
       .then((data) => {
-        console.log("IP del visitante registrada:", data.ip)
+        console.log("I:", data.ip)
         // Aquí podrías enviar `data.ip` a tu base de datos u otro servicio
       })
       .catch((err) => {
-        console.error("Error al capturar IP:", err)
+        console.error("E:", err)
       })
   }, [])
 
