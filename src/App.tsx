@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { Toaster } from "@/components/ui/toaster"
 import { Toaster as Sonner } from "@/components/ui/sonner"
 import { TooltipProvider } from "@/components/ui/tooltip"
@@ -10,19 +9,6 @@ import NotFound from "./pages/NotFound"
 const queryClient = new QueryClient()
 
 const App = () => {
-  // ①–Capturamos la IP al montar la App
-  useEffect(() => {
-    fetch("/api/get-ip")
-      .then((res) => res.json())
-      .then((data) => {
-        console.log("I:", data.ip)
-        // Aquí podrías enviar `data.ip` a tu base de datos u otro servicio
-      })
-      .catch((err) => {
-        console.error("E:", err)
-      })
-  }, [])
-
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
