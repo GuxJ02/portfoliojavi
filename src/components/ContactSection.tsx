@@ -12,7 +12,7 @@ const ContactSection = () => {
           
           <div className="space-y-6">
             
-            {/* Teléfono */}
+            {/* Teléfono 
             <div className="flex items-center space-x-4">
               <div className="rounded-full bg-purple-accent/20 p-3">
                 <Phone className="h-6 w-6 text-purple-accent" />
@@ -21,6 +21,7 @@ const ContactSection = () => {
                 <h4 className="text-lg font-medium">Phone Number</h4>
                 <p className="text-text-secondary">+34 678 675 239</p>
               </div>
+            </div>
             </div>
             
             {/* Email */}
