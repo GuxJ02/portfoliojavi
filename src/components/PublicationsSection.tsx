@@ -54,7 +54,7 @@ const PublicationsSection = () => {
   return (
     <section id="publications" className="section-padding bg-dark bg-subtle-grid">
       <div className="container mx-auto px-4">
-        <h2 className="section-title text-center">My <span style={{ color: '#CBACF9' }}>Achivements</span></h2>
+        <h2 className="section-title text-center">My <span style={{ color: '#CBACF9' }}>Achievements</span></h2>
         
         <div className="flex flex-wrap justify-center gap-2 mb-10">
           {publicationTypes.map(type => (
